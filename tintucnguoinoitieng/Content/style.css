@@ -1,0 +1,21 @@
+﻿body {
+}
+#TacGiaMenu {
+    background-color: #d71921;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    margin-top: 2em;
+}
+#TacGiaMenu a {
+    color: #fff;
+    padding: 1em;
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+
+    #TacGiaMenu a:hover {
+        background-color: #404040;
+        text-decoration: none;
+        height: 50px;
+    }
