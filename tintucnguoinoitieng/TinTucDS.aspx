@@ -5,7 +5,7 @@
             <hgroup> 
                 <h2><%: Page.Title %></h2>
             </hgroup>            
-            <asp:ListView ID="tintucDS" runat="server" DataKeyNames="Tin_ID" GroupItemCount="4"
+            <asp:ListView ID="tintucDS" runat="server" DataKeyNames="Tin_ID" GroupItemCount="2"
                 ItemType="tintucnguoinoitieng.DuLieu.TINTUC" SelectMethod="GetTinTucs"> 
                 <EmptyDataTemplate>
                     <table > 
@@ -37,10 +37,9 @@
                             </tr>    
                             <tr>    
                                 <td>     
-                                    <a href="TinTucCT.aspx?tin_ID=<%#:Item.TIN_ID%>">  
+                                    <a style="text-decoration:none;color:#000;" href="TinTucCT.aspx?tin_ID=<%#:Item.TIN_ID%>">  
                                         <span>    
-                                            <%#:Item.TENTINTUC%>   
-
+                                            <%#:Item.TENTINTUC%>  
                                         </span>  
 
                                     </a>   

@@ -15,6 +15,7 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -84,12 +85,61 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Tin Tức Người Nổi Tiếng</p>
-            </footer>
+            <%--<hr />--%>
+            
         </div>
 
     </form>
+    <footer style="background-color:#d71921;width:100%;padding-top:0.5em;height:200px;">
+        <section style="margin-top:1em;">
+            <div style="float:left;margin-left:8em;">
+            <p style="color:#fff;font-size:18px">TRỤ SỞ CHÍNH</p>
+            <p style="color:#fff;">
+                <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-map-marker"></i>
+                88-90 Yên Lãng, P.Thịnh Quang, Q.Đống Đa, Hà Nội
+            </p>
+            <p style="color:#fff">
+                <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-phone"></i>
+                024.3762.3200 - Moblie: 0986.972.034 (MR.Ngoc)
+            </p>
+            <p style="color:#fff">
+                <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-map-marker"></i>
+                <a style="text-decoration:none;color:#fff" target="_blank" href="https://www.google.com/maps/dir/''/hikvision+vi%E1%BB%87t+nam/@21.0106178,105.7458186,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3135ac9d09c901a5:0x53f2e48efd9314d4!2m2!1d105.815859!2d21.0106321"> BẢN ĐỒ ĐƯỜNG ĐI</a>
+            </p>
+                </div>
+                <div style="float:left;margin-left:2em;">
+                    <p style="color:#fff">CHI NHÁNH MIỀN NAM</p>
+                    <p style="color:#fff">
+                        <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-map-marker"></i>
+                        319 Lý Thường Kiệt (Nhà D11), P.15, Q.11, HCM
+                    </p>
+                    <p style="color:#fff">
+                        <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-phone"></i>
+                        028.38.685.689 - Mobile: 0987.489.009 (Mr. Tuấn)
+                    </p>
+                    <p style="color:#fff">
+                        <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-map-marker"></i>
+                        <a style="text-decoration:none;color:#fff" target="_blank" href="https://www.google.com/maps/dir/''/hikvision+vi%E1%BB%87t+nam/@21.0106178,105.7458186,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3135ac9d09c901a5:0x53f2e48efd9314d4!2m2!1d105.815859!2d21.0106321"> BẢN ĐỒ ĐƯỜNG ĐI</a>
+                    </p>
+                </div>
+                <div style="float:left;margin-left:2em;">
+                    <p style="color:#fff">CHI NHÁNH MIỀN TRUNG</p>
+                    <p style="color:#fff">
+                        <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-map-marker"></i>
+                        TP.Đà Nẵng
+                    </p>
+                    <p style="color:#fff">
+                        <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-phone"></i>
+                        024.3762.3200 - Mobile: 0977.555.630 (Ms.Thảo)
+                    </p>
+                    <p style="color:#fff">
+                        <i style="border-radius:50%;color:#d71921;background-color:#fff;width:23px;height:23px;line-height:23px;text-align:center;" class="fa fa-map-marker"></i>
+                        <a style="text-decoration:none;color:#fff" target="_blank" href="https://www.google.com/maps/dir/''/hikvision+vi%E1%BB%87t+nam/@21.0106178,105.7458186,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3135ac9d09c901a5:0x53f2e48efd9314d4!2m2!1d105.815859!2d21.0106321"> BẢN ĐỒ ĐƯỜNG ĐI</a>
+                    </p>
+
+                </div>
+        </section>
+        
+    </footer>
 </body>
 </html>

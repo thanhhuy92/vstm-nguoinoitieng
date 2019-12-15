@@ -27,7 +27,19 @@ namespace tintucnguoinoitieng.DuLieu
                 new TACGIA
                 {
                     TGIA_ID = 2,
-                    TENTG = "MR.SiRo",
+                    TENTG = "Mr.SiRo",
+                    EMAIL = "xxxx"
+                },
+                new TACGIA
+                {
+                    TGIA_ID = 3,
+                    TENTG = "Hồ Ngọc Hà",
+                    EMAIL = "xxxx"
+                },
+                new TACGIA
+                {
+                    TGIA_ID = 4,
+                    TENTG = "Hồ Quang Hiếu",
                     EMAIL = "xxxx"
                 }
             };
@@ -54,8 +66,26 @@ namespace tintucnguoinoitieng.DuLieu
                     TENTINTUC = "Hit Mới “Một Bước Yêu, Vạn Dặm Đau”",
                     NOIDUNG = "Được mệnh danh là Thánh sầu Vpop với những ca khúc ballad da diết, giai điệu day dứt, ngôn từ sâu sắc, đồng cảm, Mr. Siro là cha đẻ của không ít bản hit trong showbiz. Anh không chỉ là tác giả của những bản hit để đời cho các ca sĩ khác như Sống xa anh chẳng dễ dàng (Bảo Anh), Đừng ai nhắc về anh ấy (Trà My Idol), Em gái mưa (Hương Tràm)... mà còn tự mình thể hiện nhiều bản hit như: Gương mặt lạ lẫm, Lắng nghe nước mắt, Dưới những cơn mưa… Không quá khi nói rằng Mr. Siro chính là cái tên bảo chứng cho những ca khúc ballad dạt dào cảm xúc, lời ca đẹp đến mức có thể trích bất kỳ câu hát nào ra làm status tâm trạng cho giới trẻ. ",
                     NGAYGUI = "xxx",
-                    HINHANH = "mr-siro.jpg",
+                    HINHANH = "mr-siro1.jpg",
                     TGIA_ID = 2
+                },
+                new TINTUC
+                {
+                    TIN_ID = 3,
+                    TENTINTUC = "Hồ Ngọc Hà và Kim Lý bị bắt gặp đi thử áo cưới ở wedding L’amant",
+                    NOIDUNG = "Hồ Ngọc Hà và Kim Lý đã yêu nhau hơn 2 năm nay. Cặp đôi từ lúc quen đến lúc yêu luôn nhận được sự ủng hộ của đông đảo khán giả, đã có nhiều khán giả hâm mộ bày tỏ sự mong chờ một đám cưới giữa Nữ hoàng giải trí và người mẫu điển trai Kim Lý. Theo đó, cặp đôi dính vào tin đồn tổ chức đám cưới vào cuối năm nay. Vậy nên cả hai người đi thử ngắm đồ cưới khiến khán giả rất thích thú.",
+                    NGAYGUI = "xxx",
+                    HINHANH = "ho-ngoc-ha.jpg",
+                    TGIA_ID = 3
+                },
+                new TINTUC
+                {
+                    TIN_ID = 4,
+                    TENTINTUC = "Cô gái trong drama tố Hồ Quang Hiếu hiếp dâm",
+                    NOIDUNG = "Hơn 1 ngày ồn ào Hồ Quang Hiếu bị tố hiếp dâm cô gái trẻ vẫn khiến dân mạng xôn xao và đặc biệt quan tâm. Trong khi phía 'nữ chính' liên tục tung ra những bằng chứng đầy thách thức thì phía Hồ Quang Hiếu phủ nhận sự việc và quyết giữ thái độ bình tĩnh đối mặt. Phía nam ca sĩ cho biết đang xác định danh tính cô gái trẻ này là ai và thắc mắc động cơ nào khiến cô bất ngờ đăng đàn tố cáo như thế này.",
+                    NGAYGUI = "xxx",
+                    HINHANH = "ho-quang-hieu.png",
+                    TGIA_ID = 4
                 },
             };
             return tintucs;

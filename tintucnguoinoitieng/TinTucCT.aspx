@@ -9,7 +9,7 @@
 
                     <td> 
                         <img src="/Images/<%#:Item.HINHANH %>" 
-                            style="border: 0.5em solid;border-bottom-color:#ff8080;border-right-color:#ff8080;border-top-color:#d71921;border-left-color:#d71921;margin-left: 1em;width: auto;height: 350px" alt="<%#:Item.TENTINTUC %>"/> 
+                            style="border: 0.5em solid;border-bottom-color:#ff8080;border-right-color:#ff8080;border-top-color:#d71921;border-left-color:#d71921;margin-left: 1em;width: 300px;height: 300px" alt="<%#:Item.TENTINTUC %>"/> 
 
                     </td> 
                     <td>&nbsp;</td> 
